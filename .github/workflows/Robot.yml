@@ -20,8 +20,6 @@ jobs:
 
       - name: 运行
         run: |
-          cd BotQ
-          unzip QQbot.zip -d .
-          cd QQbot
-          nohup sh start.sh &
-          exit0
+          cd BotQ & unzip QQbot.zip -d .
+          cd QQbot & nohup sh start.sh &
+          
