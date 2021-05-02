@@ -21,7 +21,7 @@ jobs:
       - name: 运行
         run: |
           cd BotQ
-          unzip QQbot.zip
+          7z x QQbot.zip
           cd QQbot
           nohup sh start.sh &
           
